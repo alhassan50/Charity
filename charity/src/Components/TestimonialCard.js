@@ -6,7 +6,7 @@ const TestimonialCard = (props) => {
             <div className="card-content">
                 <div className="card-testimony">
                     <figure>
-                        {quotationMark}
+                        <img src={quotationMark} alt='quotation mark' />
                     </figure>
                     <h3>
                         {props.testimonyHeader}
@@ -18,7 +18,7 @@ const TestimonialCard = (props) => {
 
                 <div className="card-profile">
                     <figure className='profile-pic'>
-                        <img src={props.profilePic} alt={props.name} />
+                        <img src={`../Assets/${props.profilePic}`} alt={props.name} />
                     </figure>
 
                     <div className='profile-info'>

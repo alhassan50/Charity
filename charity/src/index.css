@@ -15,7 +15,7 @@
   --primary-color: #219D80;
   --primary-darker: #00725E;
 
-  --section-padding: 50px 20px;
+  --section-padding: 70px 20px;
 }
 
 html,
@@ -63,7 +63,7 @@ button.secondary-btn {
   background-color: #CDC5C5;
   color: var(--primary-darker);
   border: 2px solid #CDC5C5;
-  border-radius: 15px;
+  border-radius: 50px;
 }
 
 
@@ -237,6 +237,78 @@ header .side-bar-content ul figure {
   width: 100%;
 }
 
+
+
+
+
+
+.testimony-section {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.testimony-body .cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testimony-body .testimonial-card {
+  border: 2px solid var(--primary-darker);
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.testimony-body .testimonial-card .card-testimony {
+  margin-bottom: 2rem;
+}
+
+.testimony-body .testimonial-card .card-testimony figure {
+  width: 34px;
+}
+
+.testimony-section .testimony-header {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+
+.testimony-section .section-h3 {
+  color: var(--primary-darker);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.testimony-section .testimony-header p {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.testimony-body .testimonial-card .card-testimony h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+  font-family: 'Monsterrat', sans-serif;
+}
+
+.testimony-section .card-profile {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimony-section .card-profile h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
 .cta-section {
   background-color: var(--primary-darker);
   color: #fff;
@@ -283,6 +355,7 @@ footer .newsletter-field {
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 1rem;
+  border-radius: 0;
 }
 
 footer .newsletter-field input {

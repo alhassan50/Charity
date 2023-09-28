@@ -1,6 +1,6 @@
 const ImageCard = () => {
     return (
-        <div>
+        <div className="card">
             Image Card
         </div>
     )

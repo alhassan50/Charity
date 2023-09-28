@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './Sections/Navbar';
 import Hero from './Sections/Hero';
 import CTASection from './Sections/CTASection';
+import Testimony from './Sections/Testimony';
 import Footer from './Sections/Footer';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       </header>
 
       <main>
+        <Testimony />
         <CTASection />
       </main>
 
