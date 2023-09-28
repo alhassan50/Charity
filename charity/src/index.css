@@ -13,6 +13,7 @@
 
 :root {
   --primary-color: #219D80;
+  --primary-darker: #00725E;
 
   --section-padding: 50px 20px;
 }
@@ -30,12 +31,18 @@ img {
 
 section {
   padding: var(--section-padding);
+  font-size: 18px;
+}
+
+.section-h3 {
+  text-transform: capitalize;
 }
 
 button {
   padding: 15px 25px;
   font-size: 16px;
   font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 }
 
 button.primary-btn {
@@ -44,11 +51,24 @@ button.primary-btn {
   border: 2px solid var(--primary-color);
 }
 
-button.secondary-btn {
+button.ghost-btn {
   background-color: transparent;
   color: #fff;
   border: 2px solid var(--primary-color);
 }
+
+button.secondary-btn {
+  background-color: #CDC5C5;
+  color: var(--primary-darker);
+  border: 2px solid #CDC5C5;
+  border-radius: 15px;
+}
+
+
+
+
+
+
 
 
 header .navbar-content {
@@ -212,5 +232,26 @@ header .side-bar-content ul figure {
 }
 
 .hero-btns button {
+  width: 100%;
+}
+
+.cta-section {
+  background-color: var(--primary-darker);
+  color: #fff;
+}
+
+.cta-section .section-h3,
+.cta-section p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cta-section p {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.cta-section button {
   width: 100%;
 }

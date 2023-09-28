@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './Sections/Navbar';
 import Hero from './Sections/Hero';
+import CTASection from './Sections/CTASection';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
         <Hero />
       </header>
 
-      <main></main>
+      <main>
+        <CTASection />
+      </main>
     </div>
   );
 }
