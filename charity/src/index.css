@@ -239,6 +239,145 @@ header .side-bar-content ul figure {
 
 
 
+.about-section .about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.about-content .section-h3 {
+  color: #252A34;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.about-text-desc-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.about-text-desc {
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+}
+
+.about-text button {
+  margin: 20px 0;
+}
+
+
+
+.feature-section .feature-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.feature-content .section-h3 {
+  color: #252A34;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.feature-text-desc-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.feature-text-desc {
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+}
+
+.feauture-cards-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #EDF7F5;
+  padding: 20px;
+  text-align: left;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.feature-card .card-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.feature-card .card-header h3 {
+  font-size: 20px;
+  color: #219D80;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.feature-card p {
+  font-size: 16px;
+}
+
+.feature-card .card-description {
+  margin-top: 1rem;
+}
+
+.feature-section .donation-section {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-section .donation-content {
+  width: 80%;
+}
+
+.feature-section .donation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-section .donation-header h3 {
+  font-weight: 700;
+}
+
+.feature-section .donation-bar {
+  margin-top: 1rem;
+  background-color: #C7E7DF;
+  width: 100%;
+  height: 8px;
+}
+
+.feature-section .donation-bar .donation-percentage{
+  background-color: #219D80;
+  width: 72%;
+  height: 100%;
+}
+
+
+.feature-section figure.feature-image {
+  margin-top: 1rem;
+}
 
 
 
@@ -283,11 +422,19 @@ header .side-bar-content ul figure {
   font-weight: 700;
 }
 
+.testimony-body .testimonial-card .card-testimony {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .testimony-body .testimonial-card .card-testimony h3 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 24px;
-  font-family: 'Monsterrat', sans-serif;
+  font-weight: 500;
+}
+
+.testimony-body .card-testimony p {
+  font-size: 16px;
 }
 
 .testimony-section .card-profile {
@@ -300,6 +447,10 @@ header .side-bar-content ul figure {
 .testimony-section .card-profile h3 {
   font-size: 24px;
   font-weight: 500;
+}
+
+.testimony-section .card-profile .profile-info h4 {
+  font-size: 16px;
 }
 
 
@@ -363,6 +514,7 @@ footer .newsletter-field input {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
+  border: none;
 }
 
 footer hr {
@@ -381,4 +533,8 @@ footer .social-icons {
   gap: 1rem;
   font-size: 24px;
   color: #22262F;
+}
+
+footer p {
+  font-size: 16px;
 }

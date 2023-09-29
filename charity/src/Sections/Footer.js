@@ -45,7 +45,7 @@ const Footer = () => {
                         </div>
 
                         <p>
-                            Your email is safe with us,we don't spam.
+                            Your email is safe with us, we don't spam.
                         </p>
 
                     </div>
